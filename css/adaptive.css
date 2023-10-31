@@ -2,28 +2,14 @@
 @media screen and (max-width: 1229px) {
 
     /*=============== HEADER & NAV ===============*/
-    .menu {
-        margin-left: 0;
-    }
+
 }
 
 /* 768 - 1023 */
 @media screen and (max-width: 1023px) {
 
     /*=============== HEADER & NAV ===============*/
-    .header__container {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 390px;
-    }
 
-    .menu {
-        order: 3;
-    }
-
-    ul {
-        justify-content: space-around;
-    }
 
 }
 
