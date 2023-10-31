@@ -23,21 +23,19 @@ li {
   padding: 16px 0 7px 0;
 }
 
-.header__row {
-  display: flex; /* Use flexbox */
-  align-items: center; /* Align items vertically in the center */
-  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.header__menu {
-  flex: 1; /* Allow the menu to take up the remaining space */
-}
-
-ul {
-  max-width: 630px;
+.menu__list {
+  width: 630px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {

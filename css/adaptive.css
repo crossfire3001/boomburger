@@ -2,19 +2,36 @@
 @media screen and (max-width: 1229px) {
 
     /*=============== HEADER & NAV ===============*/
-
 }
 
-/* 768 - 1023 */
-@media screen and (max-width: 1023px) {
+/* 768 - 992 */
+@media screen and (max-width: 992px) {
 
     /*=============== HEADER & NAV ===============*/
+    .header__container {
+        flex-direction: column;
+    }
 
+    .header__menu {
+        margin-top: 10px;
+    }
+
+    .header__geo {
+        display: none;
+    }
+}
+
+/* 576 - 768 */
+@media screen and (max-width: 768px) {
+    /*=============== HEADER & NAV ===============*/
+    .menu__list {
+        width: 500px;
+    }
 
 }
 
-/* 425 - 768 */
-@media screen and (max-width: 768px) {
+/* 425 - 576 */
+@media screen and (max-width: 576px) {
     /*=============== HEADER & NAV ===============*/
     .header__burger {
         display: flex;
@@ -29,6 +46,11 @@
         top: 0;
         left: 0;
         background: rgba(0, 0, 0, 0.80);
+    }
+
+    .header__menu a {
+        color: #fafad2;
+        font-size: 20px;
     }
 
     .menu__list {
