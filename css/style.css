@@ -29,11 +29,34 @@ li {
   justify-content: space-between;
 }
 
+.menu {
+  margin-left: -160px;
+}
+
 ul {
   width: 630px;
   display: flex;
   justify-content: space-between;
 }
+
+a {
+  font-size: 16px;
+  color: #FFF;
+  line-height: 1.2;
+}
+
+.geo {
+  max-width: 197px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.geo-address span {
+  color: #FFF;
+}
+
+
 
 
 
