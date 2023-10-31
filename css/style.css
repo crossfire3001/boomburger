@@ -9,7 +9,45 @@ body {
   background-color: orange;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /*=============== HEADER & NAV ===============*/
+.header {
+  background-color: #070707;
+  padding: 16px 0 7px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .slide-container {
