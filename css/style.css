@@ -23,20 +23,21 @@ li {
   padding: 16px 0 7px 0;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.header__row {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
 }
 
-.menu {
-  margin-left: -160px;
+.header__menu {
+  flex: 1; /* Allow the menu to take up the remaining space */
 }
 
 ul {
   width: 630px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 a {
@@ -45,7 +46,7 @@ a {
   line-height: 1.2;
 }
 
-.geo {
+.header__geo {
   max-width: 197px;
   display: flex;
   align-items: center;
@@ -218,11 +219,11 @@ a {
 }
 
 /*=============== BURGER MENU ===============*/
-.header .burger {
+.header__burger {
   display: none;
 }
 
-.header .menu .close {
+.header__menu-close {
   display: none;
 }
 
