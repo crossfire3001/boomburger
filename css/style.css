@@ -1,3 +1,4 @@
+/*=============== BASE ===============*/
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +6,11 @@
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
+  background-color: orange;
 }
+
+/*=============== HEADER & NAV ===============*/
+
 
 .slide-container {
   max-width: 1120px;
@@ -155,3 +155,13 @@ body {
     display: none;
   }
 }
+
+/*=============== BURGER MENU ===============*/
+.header .burger {
+  display: none;
+}
+
+.header .menu .close {
+  display: none;
+}
+
