@@ -30,8 +30,7 @@ li {
 
 .container {
   max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -78,13 +77,48 @@ a {
   padding: 125px 0 40px 0;
 }
 
+.main__row {
+  display: flex;
+  align-items: center;
+}
+
+.main__info {
+  max-width: 600px;
+}
+
 .main__title {
   font-family: TrebuchetMS, sans-serif;
   font-size: 60px;
   color: white;
-  font-weight: 800;
+  font-weight: bold;
 }
 
+.main__text {
+  font-family: TrebuchetMS, sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+}
+
+.main__teaser-description {
+  font-family: TrebuchetMS, sans-serif;
+  display: flex;
+  font-size: 14px;
+  color: white;
+  gap: 55px;
+}
+
+.main__teaser-description__menu {
+  display: flex;
+  align-items: self-end;
+  gap: 29px;
+}
+
+.main__teaser-description__delivery {
+  display: flex;
+  align-items: self-end;
+  gap: 20px;
+}
 
 
 
