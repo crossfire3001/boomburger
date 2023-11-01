@@ -1,3 +1,14 @@
+/*=============== FONTS ===============*/
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url("../fonts/trebuchetms.ttf");
+}
+
+@font-face {
+  font-family: FormularBold;
+  src: url("../fonts/formular-bold-trial.otf");
+}
+
 /*=============== BASE ===============*/
 * {
   margin: 0;
@@ -55,8 +66,11 @@ a {
   color: #fff;
 }
 
-
-
+/*=============== MAIN ===============*/
+.main {
+  background-color: #070707;
+  padding: 125px 0 40px 0;
+}
 
 
 
