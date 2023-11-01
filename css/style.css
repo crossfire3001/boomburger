@@ -18,6 +18,7 @@
 
 body {
   background-color: orange;
+  color: white;
 }
 
 a {
@@ -31,6 +32,21 @@ li {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.btn {
+  height: 60px;
+  border-radius: 10px;
+  background-image: -moz-linear-gradient( 17deg, rgb(196,9,0) 0%, rgb(207,69,0) 75%, rgb(218,128,0) 100%);
+  background-image: -webkit-linear-gradient( 17deg, rgb(196,9,0) 0%, rgb(207,69,0) 75%, rgb(218,128,0) 100%);
+  background-image: -ms-linear-gradient( 17deg, rgb(196,9,0) 0%, rgb(207,69,0) 75%, rgb(218,128,0) 100%);
+  border: 0;
+  outline: none;
+  width: 271px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -74,7 +90,7 @@ a {
 /*=============== MAIN ===============*/
 .main {
   background-color: #070707;
-  padding: 125px 0 40px 0;
+  padding: 125px 0 15px 0;
 }
 
 .main__row {
@@ -83,7 +99,7 @@ a {
 }
 
 .main__info {
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .main__title {
@@ -91,6 +107,7 @@ a {
   font-size: 60px;
   color: white;
   font-weight: bold;
+  margin-bottom: 63px;
 }
 
 .main__text {
@@ -98,6 +115,11 @@ a {
   font-size: 18px;
   color: white;
   font-weight: normal;
+  margin-bottom: 42px;
+}
+
+.main__action {
+  margin-bottom: 119px;
 }
 
 .main__teaser-description {
@@ -118,6 +140,20 @@ a {
   display: flex;
   align-items: self-end;
   gap: 20px;
+}
+
+.main__promo-date {
+  background-color: #ec1a0f;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__promo-date span {
+
 }
 
 
