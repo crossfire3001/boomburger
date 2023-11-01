@@ -1,6 +1,6 @@
 /*=============== FONTS ===============*/
 @font-face {
-  font-family: "Trebuchet MS";
+  font-family: TrebuchetMS;
   src: url("../fonts/trebuchetms.ttf");
 }
 
@@ -26,6 +26,12 @@ a {
 
 li {
   list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -70,6 +76,13 @@ a {
 .main {
   background-color: #070707;
   padding: 125px 0 40px 0;
+}
+
+.main__title {
+  font-family: TrebuchetMS, sans-serif;
+  font-size: 60px;
+  color: white;
+  font-weight: 800;
 }
 
 
