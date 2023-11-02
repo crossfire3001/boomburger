@@ -142,7 +142,16 @@ a {
   gap: 20px;
 }
 
-.main__promo-date {
+.main__image {
+  position: relative;
+}
+
+.main__image-img {
+  position: absolute;
+  bottom: -220px;
+}
+
+.main__image-promo__date {
   background-color: #ec1a0f;
   height: 100px;
   width: 100px;
@@ -150,11 +159,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: -236px;
+  right: 70px;
 }
 
-.main__promo-date span {
-
-}
 
 
 
