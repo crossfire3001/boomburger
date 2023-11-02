@@ -164,6 +164,7 @@ a {
   left: 375px;
   font-family: TrebuchetMS, sans-serif;
   flex-direction: column;
+  z-index: 5;
 }
 
 .main__image-promo__price {
