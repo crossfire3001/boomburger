@@ -160,8 +160,22 @@ a {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: -236px;
-  right: 70px;
+  top: -310px;
+  left: 375px;
+}
+
+.main__image-promo__price {
+  position: absolute;
+  top: -220px;
+  left: 436px;
+  z-index: 10;
+}
+
+.main__hamburger {
+  position: absolute;
+  width: 240px;
+  bottom: -270px;
+  left: 330px;
 }
 
 
