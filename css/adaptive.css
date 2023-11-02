@@ -1,10 +1,33 @@
-/* 1230 - 1440 */
-@media screen and (max-width: 1440px) {
+/* 1230 - 1439 */
+@media screen and (max-width: 1439px) {
   /*=============== MAIN ===============*/
+  .main__image-img {
+    max-width: 500px;
+  }
+
+  .main__image-promo__date {
+    top: -214px;
+    left: 309px;
+  }
+
+  .main__image-promo__price {
+    top: -125px;
+    left: 362px;
+  }
+
+  .main__hamburger {
+    left: 210px;
+  }
 }
 
 /* 1024 - 1229 */
 @media screen and (max-width: 1229px) {
+  /*=============== BASE ===============*/
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   /*=============== HEADER & NAV ===============*/
 }
 

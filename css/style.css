@@ -149,6 +149,7 @@ a {
 .main__image-img {
   position: absolute;
   bottom: -220px;
+  max-width: 621px;
 }
 
 .main__image-promo__date {
