@@ -162,13 +162,27 @@ a {
   position: absolute;
   top: -310px;
   left: 375px;
+  font-family: TrebuchetMS, sans-serif;
+  flex-direction: column;
 }
 
 .main__image-promo__price {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: TrebuchetMS, sans-serif;
   position: absolute;
   top: -220px;
   left: 436px;
   z-index: 10;
+  width: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 8px;
+}
+
+.main__image-promo__price del {
+  font-size: 16px;
 }
 
 .main__hamburger {
@@ -176,6 +190,19 @@ a {
   width: 240px;
   bottom: -270px;
   left: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.main__hamburger-name {
+  font-size: 25px;
+  font-family: FormularBold, sans-serif;
+}
+
+.main__hamburger-text {
+  font-size: 14px;
+  font-family: TrebuchetMS, sans-serif;
 }
 
 
