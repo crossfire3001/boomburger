@@ -38,9 +38,24 @@ li {
 .btn {
   height: 60px;
   border-radius: 10px;
-  background-image: -moz-linear-gradient( 17deg, rgb(196,9,0) 0%, rgb(207,69,0) 75%, rgb(218,128,0) 100%);
-  background-image: -webkit-linear-gradient( 17deg, rgb(196,9,0) 0%, rgb(207,69,0) 75%, rgb(218,128,0) 100%);
-  background-image: -ms-linear-gradient( 17deg, rgb(196,9,0) 0%, rgb(207,69,0) 75%, rgb(218,128,0) 100%);
+  background-image: -moz-linear-gradient(
+    17deg,
+    rgb(196, 9, 0) 0%,
+    rgb(207, 69, 0) 75%,
+    rgb(218, 128, 0) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    17deg,
+    rgb(196, 9, 0) 0%,
+    rgb(207, 69, 0) 75%,
+    rgb(218, 128, 0) 100%
+  );
+  background-image: -ms-linear-gradient(
+    17deg,
+    rgb(196, 9, 0) 0%,
+    rgb(207, 69, 0) 75%,
+    rgb(218, 128, 0) 100%
+  );
   border: 0;
   outline: none;
   width: 271px;
@@ -206,41 +221,6 @@ a {
   font-size: 14px;
   font-family: TrebuchetMS, sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slide-container {
   max-width: 1120px;
